@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "Add";
+}
+
+<h2>Add Product</h2>
+
+@using(Html.BeginForm("Save", "Product"))
+{
+    <div>
+        <label for="name">Name</label>
+        <input name="name" type="text" placeholder="Enter a product name" />
+    </div>
+    <div>
+        <button type="submit" class="btn">Save</button>
+    </div>
+}

@@ -1,4 +1,4 @@
-﻿using MassiveDemo.Domain;
+﻿using MassiveDemo.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;

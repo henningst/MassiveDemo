@@ -1,11 +1,12 @@
-﻿@model List<MassiveDemo.Domain.Product>
+﻿@model List<MassiveDemo.Models.Product>
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Ad-Hoc queries";
 }
 
-<h2>Index</h2>
-
+<h2>Ad-Hoc queries</h2>
+<ul>
 @foreach (var product in Model)
 {
     <li>@product.Name (@product.Id)</li>
 }
+</ul>

@@ -14,6 +14,5 @@ namespace MassiveDemo.Controllers
             var products = new Products();
             return View(products.All().ToList<dynamic>());
         }
-
     }
 }

@@ -1,0 +1,11 @@
+﻿@model List<MassiveDemo.Domain.Product>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@foreach (var product in Model)
+{
+    <li>@product.Name (@product.Id)</li>
+}

@@ -4,11 +4,13 @@
 
 <h2>Add Product</h2>
 
-@using(Html.BeginForm("Save", "Product"))
+@using (Html.BeginForm("Save", "Product"))
 {
     <div>
-        <label for="name">Name</label>
-        <input name="name" type="text" placeholder="Enter a product name" />
+        <input name="Name" type="text" placeholder="Enter a product name" />
+    </div>
+    <div>
+        <input name="Description" type="text" placeholder="Enter a description" />
     </div>
     <div>
         <button type="submit" class="btn">Save</button>

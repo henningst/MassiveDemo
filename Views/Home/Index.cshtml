@@ -7,6 +7,7 @@
         <tr>
             <th>Id</th>
             <th>Name</th>
+            <th>Description</th>
             <th></th>
         </tr>
     </thead>
@@ -15,7 +16,8 @@
     {
         <tr>
             <td>@product.Id</td>
-            <td>@product.Name</td>
+            <td>@product.Name</td> 
+            <td>@product.Description</td>
             <td style="text-align: right;">
                 @Html.ActionLink("Delete", "Delete", "Product", new { Id=@product.Id }, null)
             </td>

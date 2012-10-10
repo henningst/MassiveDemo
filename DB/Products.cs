@@ -16,5 +16,13 @@ namespace MassiveDemo.Domain
         {
 
         }
+
+        public override void Validate(dynamic item)
+        {
+            if (string.IsNullOrEmpty(item.Name))
+            {
+                Errors.Add("Navn kan ikke være blankt");
+            }
+        }
     }
 }

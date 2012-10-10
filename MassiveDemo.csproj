@@ -235,9 +235,7 @@
     <Content Include="Views\Product\Add.cshtml" />
     <Content Include="Views\AdHoc\Index.cshtml" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>

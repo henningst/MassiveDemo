@@ -13,6 +13,9 @@ using System.Text.RegularExpressions;
 
 namespace MassiveDemo.DB
 {
+    /// <summary>
+    /// Massive by Rob Conery!
+    /// </summary>
     public static class ObjectExtensions
     {
         /// <summary>
